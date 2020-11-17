@@ -12,6 +12,6 @@ dependencies:
 At the time I've implemented this dark theme these were the latest packages avaiable and most probably the newer versions will also work fine. Add a PR if anything gets depricated in the future and I'll merge it.
 
 ### Output
-[](https://i.stack.imgur.com/dnSMH.gif)
+![Dark mode in flutter](https://i.stack.imgur.com/dnSMH.gif)
 
 
