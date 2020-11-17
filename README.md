@@ -1,16 +1,17 @@
-# hybrid_theme
+# How to set up dark theme in flutter
 
-A new Flutter project.
+[This article](https://milddev.com/flutter/the-most-simple-and-easy-way-to-implement-light-theme-and-dark-theme-multiple-themes-in-your-flutter-app/) Explains in detail on how you can set up dark theme using Provider to manage state and shared_preferences to save theme preference. In this repository i have implemented dark theme in a most simple and easy way. Using this method you can implement as many themes as you want and specify your own color schemes as needed.
 
-## Getting Started
+### Pubspec.yaml dependencies
 
-This project is a starting point for a Flutter application.
+```
+dependencies:
+  shared_preferences: ^0.5.10
+  provider: ^4.3.2+2
+```
+At the time I've implemented this dark theme these were the latest packages avaiable and most probably the newer versions will also work fine. Add a PR if anything gets depricated in the future and I'll merge it.
 
-A few resources to get you started if this is your first Flutter project:
+### Output
+[](https://i.stack.imgur.com/dnSMH.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
